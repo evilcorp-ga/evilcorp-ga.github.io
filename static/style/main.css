@@ -4,4 +4,56 @@ html body {
     font-family: 'Inconsolata', monospace;
     font-size: 1.7em;
     line-height: 1.6em;
+    padding: 0px;
+    margin: 0px;
+    background: #ededed;
+}
+
+#landing {
+    text-align: center;
+    height: 100vh;
+}
+
+#landing h1 {
+    padding-top: 30vh;
+}
+
+#landing h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.tutorial {
+    margin-bottom: 100px;
+}
+
+.tutorial p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.tutorial p:first-letter {
+    font-size: 1.7em;
+    margin-left: 60px;
+    text-transform : uppercase;
+}
+
+.tutorial h3 {
+    text-transform : capitalize;
+    text-align : center;
+    font-size: 2.7em;
+}
+
+.tutorial .center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tutorial code {
+    text-align : center;
+    font-size: 1.2em;
+    color: #ef00db;
+    padding: 7px;
+    border: 1px solid #ef00db;
 }
