@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.7em;
+    line-height: 1.6em;
+}
